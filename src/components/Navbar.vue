@@ -63,16 +63,13 @@
 import { ref, onMounted } from 'vue'
 import { SunIcon, MoonIcon, Cog6ToothIcon } from '@heroicons/vue/24/outline'
 
-// Theme state (you can make this more sophisticated later)
 const isDark = ref(true)
 
-// Initialize theme on component mount
+// Initialize theme on component mount + localstorage
 onMounted(() => {
-  // Check localStorage or default to dark
   const savedTheme = localStorage.getItem('theme')
   isDark.value = savedTheme ? savedTheme === 'dark' : true
   
-  // Apply the initial theme
   if (isDark.value) {
     document.documentElement.classList.add('dark')
   } else {
@@ -83,14 +80,12 @@ onMounted(() => {
 const toggleTheme = () => {
   isDark.value = !isDark.value
   
-  // Actually toggle the dark class on the document
   if (isDark.value) {
     document.documentElement.classList.add('dark')
   } else {
     document.documentElement.classList.remove('dark')
   }
   
-  // Optional: Save preference to localStorage
   localStorage.setItem('theme', isDark.value ? 'dark' : 'light')
   
   console.log('Theme toggled:', isDark.value ? 'dark' : 'light')
