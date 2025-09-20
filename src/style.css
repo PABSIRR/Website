@@ -17,6 +17,7 @@
   --color-text2: oklch(0.9639 0.0013 106.42);
   --color-dark: oklch(0.5588 0.0345 286.29);
   --color-dark-s: oklch(0.5133 0.0061 264.71);
+  --color-text-hover: oklch(0.8067 0.0061 54);
   
   /* Typography */
   --font-mono: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
