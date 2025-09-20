@@ -58,6 +58,6 @@ const loveItems = [
   { header: "League", href: "https://www.op.gg/summoners/na/pabsirr-NA1", text:"One year hiatus ... 6 months left"},
   { header: "Chess", href: "https://lichess.org/@/F_pabsirr_10", text:"Trying to reach 2000 again"},
   { header: "Outside", href: "https://www.strava.com/athletes/129668098", text: "225 bench + sub 18 5k again?"},
-
+  { header: "Movies", href: "https://letterboxd.com/PaGoat/", text: "Too many movies to watch"}
 ]
 </script>
