@@ -8,7 +8,7 @@
           <font-awesome-icon :icon="item.icon" class="text-[1.3em]" />
         </a>
       </div>
-      <img src="../../pg2.jpg" alt="Backpacking!" class="rounded-lg w-64 h-80 object-cover mt-4"></img>
+      <img src="/pg2.jpg" alt="Backpacking!" class="rounded-lg w-64 h-80 object-cover mt-4"></img>
       <p class=" mt-10 ">I'm Pavan! I'm a CS & E / Math & Econ student at UCLA entering my junior year. 
         Focused on creating meaningful products!</p>
     </div>
@@ -51,7 +51,7 @@ const uclaItems = [
 const iconLinks = [
   { href: "https://github.com/yourusername", icon: ['fab', 'github'] },
   { href: "https://linkedin.com/in/yourusername", icon: ['fab', 'linkedin'] },
-  { href: "../../resume.pdf", icon: ['fas', 'file-alt'] }
+  { href: "/resume.pdf", icon: ['fas', 'file-alt'] }
 ]
 
 const loveItems = [
